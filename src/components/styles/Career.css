@@ -8,8 +8,8 @@
   opacity: 1;
   height: auto;
   margin: auto;
-  margin-bottom: 250px;
-  padding: 120px 0px;
+  margin-bottom: 180px;
+  padding: 240px 0px 120px 0px;
 }
 
 .career-section h2 {
@@ -22,7 +22,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 90px;
 }
 .career-section h2 > span {
@@ -160,9 +160,8 @@
 }
 @media only screen and (max-width: 1025px) {
   .career-section {
-    padding: 70px 0px;
-    padding-top: 220px;
-    margin-top: -200px;
+    padding: 140px 0px 70px 0px;
+    margin-top: 0px;
     margin-bottom: 0;
   }
 }
@@ -193,7 +192,7 @@
     width: 100%;
     font-size: 45px;
     line-height: 45px;
-    margin-top: 0px;
+    margin-top: 20px;
   }
   .career-info-in {
     gap: 0px;
@@ -206,8 +205,8 @@
     padding-left: 5%;
   }
   .career-section {
-    padding-top: 90px;
-    margin-top: -70px;
+    padding-top: 130px;
+    margin-top: 0px;
 
     align-items: start;
     place-items: inherit;

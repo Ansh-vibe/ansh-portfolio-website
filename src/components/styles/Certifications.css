@@ -1,0 +1,99 @@
+.cert-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.cert-container {
+  width: 90%;
+  max-width: 1200px;
+}
+
+.cert-section h2 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(0deg, #7f40ff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.cert-grid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cert-card-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 800px;
+}
+
+.cert-card-box:hover {
+  border-color: rgba(170, 66, 255, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(127, 64, 255, 0.1);
+}
+
+.cert-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  max-height: 550px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.cert-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.cert-list::-webkit-scrollbar-thumb {
+  background: rgba(170, 66, 255, 0.3);
+  border-radius: 4px;
+}
+
+.cert-item {
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.02);
+  border-left: 3px solid #aa42ff;
+  border-radius: 4px 8px 8px 4px;
+}
+
+.cert-item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ececec;
+}
+
+.cert-item-org {
+  font-size: 13px;
+  color: #999;
+  margin-top: 4px;
+}
+
+@media only screen and (max-width: 900px) {
+  .cert-list {
+    grid-template-columns: 1fr;
+  }
+  .cert-section h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}

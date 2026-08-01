@@ -10,6 +10,7 @@
   max-width: 1920px;
   margin: auto;
   z-index: 9;
+  padding-top: 140px;
 }
 .what-box {
   width: 50%;
@@ -24,6 +25,7 @@
   font-weight: 600;
   margin-right: 10%;
   margin-bottom: 100px;
+  margin-top: 60px;
 }
 
 .hat-h2 {

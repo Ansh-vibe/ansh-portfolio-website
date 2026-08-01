@@ -91,13 +91,18 @@ body {
   flex-wrap: nowrap;
 }
 
+.work-techstack-spacer {
+  width: 100%;
+  height: 300px;
+  clear: both;
+}
+
 .techstack {
   width: 100%;
   position: relative;
   height: var(--vh);
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: -100px;
+  margin-bottom: 200px;
 }
 
 .techstack h2 {
@@ -105,10 +110,24 @@ body {
   text-align: center;
   position: absolute;
   width: 100%;
-  top: 120px;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0;
   font-weight: 400;
   text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 0;
+}
+
+.techstack h2 span {
+  color: var(--accentColor);
+}
+
+.tech-canvas {
+  height: 100% !important;
+  width: 100% !important;
+  position: relative;
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -117,7 +136,10 @@ body {
   }
 }
 @media screen and (max-width: 900px) {
-  .techstack h2 {
-    font-size: 40px;
+  .techstack-header h2 {
+    font-size: 38px;
+  }
+  .techstack {
+    margin-top: 140px;
   }
 }

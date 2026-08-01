@@ -8,12 +8,14 @@
   height: auto;
   width: var(--cWidth);
   margin: auto;
+  padding-top: 220px;
 }
 .about-me {
   padding: 50px 0px;
   padding-bottom: 0;
   width: 500px;
   max-width: calc(100% - 15px);
+  margin-top: 50px;
 }
 .about-me h3 {
   font-size: 25px;
@@ -21,13 +23,27 @@
   letter-spacing: 7px;
   font-weight: 400;
   color: var(--accentColor);
+  margin-bottom: 20px;
 }
 
 .about-me p {
-  font-size: 33px;
-  font-weight: 600;
-  line-height: 36px;
-  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+}
+
+.about-me p span,
+.about-me p strong {
+  color: var(--accentColor);
+}
+
+.about-me .para-sub {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #b0b0b0;
+  margin-top: 18px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -50,22 +66,33 @@
     width: var(--cWidth);
     justify-content: right;
     max-width: 1920px;
-    height: var(--vh);
-    padding: 0px;
+    height: auto;
+    min-height: 85vh;
+    padding-top: 180px;
+    padding-bottom: 80px;
     opacity: 1;
   }
   .about-me {
     padding: 0px;
     width: 50%;
+    margin-top: 80px;
   }
   .about-me p {
-    font-size: 1.9vw;
-    line-height: 2.3vw;
+    font-size: 1.1vw;
+    line-height: 1.7vw;
+  }
+  .about-me .para-sub {
+    font-size: 1vw;
+    line-height: 1.6vw;
   }
 }
 @media only screen and (min-width: 1950px) {
   .about-me p {
-    font-size: 2.5rem;
-    line-height: 2.7rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .about-me .para-sub {
+    font-size: 1.15rem;
+    line-height: 1.85rem;
   }
 }
