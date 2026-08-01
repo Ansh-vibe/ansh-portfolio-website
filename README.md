@@ -112,18 +112,16 @@ npm run preview
 
 ## 📸 Preview
 
-Add screenshots or GIFs of your portfolio here.
+### Home Page
 
-Example:
+<p align="center">
+  <img src="./assets/portfolio-preview.png" alt="Ansh Portfolio Preview" width="100%" />
+</p>
 
-```
-assets/
- ├── home.png
- ├── about.png
- ├── projects.png
-```
+🌐 **Live Demo:** https://ansh-vibe.github.io/ansh-portfolio-website/
 
 ---
+
 
 ## 📈 Future Improvements
 
