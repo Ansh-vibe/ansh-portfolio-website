@@ -1,3 +1,19 @@
+# ⚠️ Usage Notice
+
+This repository is shared for **learning and reference purposes only**.
+
+Please **DO NOT**:
+
+- Copy the complete website design.
+- Re-upload this repository as your own.
+- Remove credits.
+- Use this project commercially without permission.
+- Sell or redistribute this source code.
+
+If you use parts of this project, please provide proper credit by linking back to this repository.
+
+> **Build your own portfolio—don't just copy mine. ❤️**
+
 🌐 Ansh Portfolio Website
 
 > A modern, responsive, and interactive developer portfolio built to showcase my projects, technical skills, and experience. Designed with a focus on performance, clean UI, and a seamless user experience.
@@ -117,12 +133,6 @@ npm run preview
   </a>
 </p> 
 
-### Home Page
-
-<p align="center">
-  <img src="./assets/portfolio-preview.png" alt="Ansh Portfolio Preview" width="100%" />
-</p>
-
 🌐 **Live Demo:** https://ansh-vibe.github.io/ansh-portfolio-website/
 
 ---
@@ -138,24 +148,6 @@ npm run preview
 - 🎯 Project Filtering
 - 📱 Better Mobile Experience
 - 🤖 AI Chat Assistant
-
----
-
-# ⚠️ Usage Notice
-
-This repository is shared for **learning and reference purposes only**.
-
-Please **DO NOT**:
-
-- Copy the complete website design.
-- Re-upload this repository as your own.
-- Remove credits.
-- Use this project commercially without permission.
-- Sell or redistribute this source code.
-
-If you use parts of this project, please provide proper credit by linking back to this repository.
-
-> **Build your own portfolio—don't just copy mine. ❤️**
 
 ---
 
@@ -175,10 +167,10 @@ Contributions, suggestions, and feature requests are welcome.
 
 ### **Ansh Vishwakarma**
 
-- 🌐 Portfolio: https://your-portfolio-link.com
+- 🌐 Portfolio: https://ansh-vibe.github.io/ansh-portfolio-website/
 - 💻 GitHub: https://github.com/Ansh-vibe
-- 💼 LinkedIn: https://linkedin.com/in/your-profile
-- 📧 Email: your-email@example.com
+- 💼 LinkedIn: https://www.linkedin.com/in/v-ansh/
+- 📧 Email: your- contact.ansh03@gmail.com
 
 ---
 
