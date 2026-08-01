@@ -1,5 +1,4 @@
-````markdown
-# 🌐 Ansh Portfolio Website
+🌐 Ansh Portfolio Website
 
 > A modern, responsive, and interactive developer portfolio built to showcase my projects, technical skills, and experience. Designed with a focus on performance, clean UI, and a seamless user experience.
 
