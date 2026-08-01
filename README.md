@@ -23,8 +23,6 @@
 
 🌍 **Portfolio:**  https://Ansh-vibe.github.io/ansh-portfolio-website/
 
-> Replace the link above with your deployed portfolio.
-
 ---
 
 ## ✨ Features
