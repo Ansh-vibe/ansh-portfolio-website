@@ -12,17 +12,17 @@ import {
 } from "@react-three/rapier";
 
 const textureLoader = new THREE.TextureLoader();
-const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
-];
-const textures = imageUrls.map((url) => textureLoader.load(url));
+const technologies = [
+  "images/react2.webp",
+  "images/next2.webp",
+  "images/node2.webp",
+  "images/express.webp",
+  "images/mongo.webp",
+  "images/mysql.webp",
+  "images/typescript.webp",
+  "images/javascript.webp",
+].map(path => import.meta.env.BASE_URL + path);
+const textures = technologies.map((url) => textureLoader.load(url));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
@@ -126,7 +126,7 @@ function Pointer({ vec = new THREE.Vector3(), isActive }: PointerProps) {
 
 const TechStack = () => {
   const [isActive, setIsActive] = useState(false);
-  const containerRef = useRef<HTMLElement>(null);
+  const containerRef = useRef<any>(null);
 
   useEffect(() => {
     const el = containerRef.current || document.getElementById("techstack");
@@ -193,7 +193,7 @@ const TechStack = () => {
           ))}
         </Physics>
         <Environment
-          files="/models/char_enviorment.hdr"
+          files={`${import.meta.env.BASE_URL}models/char_enviorment.hdr`}
           environmentIntensity={0.5}
           environmentRotation={[0, 4, 2]}
         />
