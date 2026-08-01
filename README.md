@@ -111,6 +111,11 @@ npm run preview
 ---
 
 ## 📸 Preview
+<p align="center">
+  <a href="https://ansh-vibe.github.io/ansh-portfolio-website/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-8A2BE2?style=for-the-badge" alt="Live Demo">
+  </a>
+</p> 
 
 ### Home Page
 
